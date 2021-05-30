@@ -34,8 +34,8 @@ const Header = ({ offset, siteTitle }) => {
       </div>
       <div className="offcanvas-body">
         <ul className="list-group list-group-flush">
-            <li className="list-group-item"><a href="/overview/" className="text-decoration-none">Overview</a></li>
-            <li className="list-group-item"><a href="/access/" className="text-decoration-none">Access</a></li>
+            <li className="list-group-item"><Link toggled={isOpen} toggle={setOpen} href="/overview/" className="text-decoration-none">Overview</Link></li>
+            <li className="list-group-item"><Link toggled={isOpen} toggle={setOpen} href="/access/" className="text-decoration-none">Access</Link></li>
         </ul>
       </div>
     </div>
