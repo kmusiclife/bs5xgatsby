@@ -10,7 +10,7 @@ const Overview = () => (
     <div className="container py-5 text-center">
         <h1 className="pb-3">Overview Page</h1>
         <p>Bootstrap5 x Gatsby</p>
-        <p><Link to="https://kmusiclife.github.com/bs5xgatsby" target="_blank" role="nofollow">Bootstrap5 x Gatsby on github</Link></p>
+        <p><Link to="https://github.com/kmusiclife/bs5xgatsby" target="_blank" role="nofollow">Bootstrap5 x Gatsby on github</Link></p>
     </div>
   </Layout>
 )
